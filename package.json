@@ -1,13 +1,11 @@
 {
-	"name": "unicorn-fun",
+	"name": "tiptap-esi-extentions",
 	"version": "0.0.0",
-	"description": "My awesome module",
+	"description": "Extra tiptap funtionality",
 	"license": "MIT",
-	"repository": "YOUR-GITHUB-USERNAME/unicorn-fun",
+	"repository": "jayb0b/tiptap-trademark",
 	"author": {
-		"name": "YOUR NAME",
-		"email": "YOUR EMAIL",
-		"url": "YOUR WEBSITE"
+		"name": "Jay Smith"
 	},
 	"engines": {
 		"node": ">=10"
