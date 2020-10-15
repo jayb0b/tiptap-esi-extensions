@@ -1,5 +1,4 @@
 import test from 'ava';
-import unicornFun from '.';
 
 test('main', t => {
 	t.throws(() => {

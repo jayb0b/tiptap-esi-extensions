@@ -1,30 +1,24 @@
 import { Mark } from 'tiptap'
 import { toggleMark } from 'tiptap-commands'
 
-export default class Underline extends Mark {
+export default class Subscript extends Mark {
 
   get name() {
-    return 'superscript'
+    return 'subscript'
   }
 
   get schema() {
     return {
       parseDOM: [
         {
-          tag: 'sup',
+          tag: 'sub',
         },
         {
           style: 'text-decoration',
           getAttrs: value => value === 'underline',
         },
       ],
-      toDOM: () => ['sup', 0],
-    }
-  }
-
-  keys({ type }) {
-    return {
-      'Mod-u': toggleMark(type),
+      toDOM: () => ['sub', 0],
     }
   }
 
