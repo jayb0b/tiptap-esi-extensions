@@ -1,9 +1,9 @@
 {
 	"name": "tiptap-esi-extensions",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "Extra tiptap funtionality",
 	"license": "MIT",
-	"repository": "jayb0b/tiptap-esi-xtensions",
+	"repository": "jayb0b/tiptap-esi-extensions",
 	"author": {
 		"name": "Jay Smith"
 	},
@@ -17,8 +17,6 @@
 		"index.js"
 	],
 	"keywords": [
-		"unicorn",
-		"fun"
 	],
 	"dependencies": {
 		"lowlight": "1.13.1",
