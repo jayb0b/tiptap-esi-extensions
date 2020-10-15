@@ -1,9 +1,9 @@
 {
-	"name": "tiptap-esi-extentions",
+	"name": "tiptap-esi-extensions",
 	"version": "0.0.0",
 	"description": "Extra tiptap funtionality",
 	"license": "MIT",
-	"repository": "jayb0b/tiptap-trademark",
+	"repository": "jayb0b/tiptap-esi-xtensions",
 	"author": {
 		"name": "Jay Smith"
 	},
